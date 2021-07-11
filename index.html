@@ -1,52 +1,162 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
     <title>Barber Shop</title>
-    <!-- Style  -->
+    <!-- styles -->
     <link rel="stylesheet" href="assets/css/main.css">
-    <!-- Fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
 </head>
 
-<header class="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+<body>
+    <nav class="navbar navbar-expand-lg container-fluid">
+        <div class="container navbar__menu">
             <a class="navbar-brand" href="#">
-                <img src="/assets/img/logo.png" alt="logo" class="navbar__image">
+                <img src="assets/img/logo.png" alt="logo" class="navbar__logo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="assets/img/bars-solid.svg" alt="close menu" class="navbar--toggle">
+    
+  </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active nav__link--emphasis" aria-current="page" href="#">Nosotros</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Nosotros<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active nav__link--emphasis" aria-current="page" href="#">Trabajos</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Trabajos<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active nav__link--emphasis" aria-current="page" href="#">Blog</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Blog<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active nav__link--emphasis" aria-current="page" href="#">Horas</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Horas<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active nav__link--emphasis" aria-current="page" href="#">Contacto</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contacto<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-</header>
 
-<body>
+    <main class="main container-fluid">
+
+        <section class="hero container-fluid text-center" id="hero">
+            <h1>5 formas de cuidar tu corte de cabello</h1>
+            <div class="hero__image">
+                <a href="#post">
+                    <img src="assets/img/angle-double-down-solid.svg" alt="arrow down">
+                </a>
+            </div>
+        </section>
+
+        <article class="article" id="post">
+            <div class="container">
+                <div class="row">
+                    <div class="col my-5">
+                        <p class="article__date">
+                            12 de abril de 2018
+                        </p>
+
+                        <p class="article__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero ducimus natus id, reiciendis asperiores explicabo ut odio excepturi tempore a error fugit quidem cupiditate reprehenderit itaque debitis, aperiam nesciunt? Facere asperiores sed
+                            blanditiis rerum magni sit minima voluptatem temporibus, veritatis ipsam nostrum error in sequi! Impedit numquam voluptate error itaque aspernatur. Magni, temporibus tempora. Possimus delectus sunt eum voluptatibus?
+                        </p>
+
+                        <p class="article__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero ducimus natus id, reiciendis asperiores explicabo ut odio excepturi tempore a error fugit quidem cupiditate reprehenderit itaque debitis, aperiam nesciunt? Facere asperiores sed
+                            blanditiis rerum magni sit minima voluptatem temporibus, veritatis ipsam nostrum error in sequi! Impedit numquam voluptate error itaque aspernatur. Magni, temporibus tempora. Possimus delectus sunt eum voluptatibus?
+                        </p>
+
+                        <p class="article__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero ducimus natus id, reiciendis asperiores explicabo ut odio excepturi tempore a error fugit quidem cupiditate reprehenderit itaque debitis, aperiam nesciunt? Facere asperiores sed
+                            blanditiis rerum magni sit minima voluptatem temporibus, veritatis ipsam nostrum error in sequi! Impedit numquam voluptate error itaque aspernatur. Magni, temporibus tempora. Possimus delectus sunt eum voluptatibus?
+                        </p>
+
+                        <p class="article__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero ducimus natus id, reiciendis asperiores explicabo ut odio excepturi tempore a error fugit quidem cupiditate reprehenderit itaque debitis, aperiam
+                        </p>
+
+                        <p class="article__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus libero ducimus natus id, reiciendis asperiores explicabo ut odio excepturi tempore a error fugit quidem cupiditate reprehenderit itaque debitis, aperiam nesciunt? Facere asperiores sed
+                            blanditiis rerum magni sit minima vo
+                        </p>
+                    </div>
+                </div>
+                <div class="article__buttons">
+                    <button class="article__button button__small">
+                        Compartir
+                    </button>
+                    <button class="article__button button_medium">
+                        Comentar en Twitter
+                    </button>
+                </div>
+            </div>
+            <hr>
+        </article>
+
+        <section class="profile">
+            <div class="container profile__container">
+                <div class="row">
+                    <div class="col">
+                        <img src="assets/img/naomi-thai.png" alt="naomi thai" class="profile__image">
+                    </div>
+
+                    <div class="col>
+                        <h2 class=" profile__title ">
+                            Naomi Thai
+                        </h2>
+                        <p class="profile__subtitle ">
+                            @Naothai
+                        </p>
+                        <p class="profile__subtitle ">
+                            depelos.com
+                        </p>
+                    </div>
+
+                    <div class="d-none d-md-block col-7 profile__text ">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi minima provident quas doloremque doloribus, maiores qui necessitatibus natus laboriosam ut in rem numquam corporis quae pariatur corrupti placeat, libero ex.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pagination__section ">
+            <div class="container-fluid ">
+                <div class="row ">
+                    <div class="col ">
+                        <nav aria-label="Page navigation example " class="align-items-center ">
+                            <ul class="pagination ">
+                                <li class="page-item "><a class="page-link " href="# ">Anterior</a></li>
+                                <li class="page-item "><a class="page-link " href="# ">1</a></li>
+                                <li class="page-item "><a class="page-link " href="# ">2</a></li>
+                                <li class="page-item "><a class="page-link " href="# ">3</a></li>
+                                <li class="page-item "><a class="page-link " href="# ">Siguiente</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer container-fluid ">
+        <a href="#hero ">
+            <img src="assets/img/logo.png " alt="logo " class="footer__logo ">
+        </a>
+    </footer>
+
+
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns " crossorigin="anonymous "></script>
 
 </body>
 

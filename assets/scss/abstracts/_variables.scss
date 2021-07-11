@@ -1,0 +1,33 @@
+//playfair display font
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&display=swap');
+// roboto font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+//colors
+$white: #fff;
+$platinum: #E6E7E7;
+$light-gray: #D1D1D1;
+$fuzzy-wuzzy: #E56353;
+$ruddy-pink: #D76C69;
+$spanish-pink: #ECBCBA;
+$eerie-black: #121619;
+$raisin-black: #222323;
+$nickel: #6c6e70;
+//typography
+$roboto: 'Roboto',
+sans-serif;
+$playfair: 'Playfair Display',
+serif;
+//font weight
+$w-regular: 400;
+$w-light: 300;
+$w-black: 900;
+//font sizes
+$xx-large: 70px;
+$x-large: 30px;
+$large: 18px;
+$medium: 16px;
+$small: 12px;
+//breakpoints
+$breakpoint-small:320px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 1024px;

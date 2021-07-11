@@ -1,0 +1,20 @@
+.pagination__section {
+    height: 150px;
+    background-color: $platinum;
+}
+
+.pagination {
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.page-link {
+    color: $raisin-black;
+}
+
+@media (min-width: $breakpoint-small)and(max-width: $breakpoint-medium) {
+    .pagination {
+        justify-content: center;
+        margin-top: 14%;
+    }
+}
